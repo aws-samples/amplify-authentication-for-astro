@@ -1,0 +1,50 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<script>
+		window.global = window;
+		window.process = {
+		  env: { DEBUG: undefined },
+		}
+		var exports = {};
+	  </script>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+			<h1>Welcome to Our Astro Website!</h1>
+			<section>
+				<p>
+					This is a starter template for deploying Astro websites with AWS Amplify authentication right out of the box. Customize it to build your own website!
+				</p>
+			</section>
+	
+			<section>
+				<h3>Get Started</h3>
+				<p>
+					Ready to launch your website? Follow the README guide to deploy your Astro site on AWS with authentication.
+				</p>
+				<p>Here are some key resources that this template uses:</p>
+				<ul>
+					<li><a href="https://astro.build/">Astro</a></li>
+					<li><a href="https://aws.amazon.com/amplify/">Amplify</a></li>
+					<li><a href="https://www.typescriptlang.org/">Typescript</a></li>
+					<li><a href="https://docs.astro.build/en/guides/integrations-guide/react/">React in Astro</a></li>
+					<li><a href="https://aws.amazon.com/amplify/authentication/">Amplify Authentication</a></li>
+				</ul>
+			</section>
+			<section>
+				<p>Get started by editing this page in <code>src/pages/index.astro</code></p>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>
