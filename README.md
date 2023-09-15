@@ -2,6 +2,10 @@
 
 This project is a robust and user-friendly Astro website template equipped with seamless AWS Amplify authentication integration. It offers developers an efficient starting point for creating secure and performant web applications. With a focus on speed and scalability, this template harnesses the power of Astro's static site generation and AWS Amplify's authentication services to streamline the development process. Leveraging Amplify's easy authentication and hosting, an Astro website can be deployed within minutes.
 
+## △ Deploy to Amplify
+
+[![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/aws-samples/amplify-authentication-for-astro)
+
 ## 📁 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
