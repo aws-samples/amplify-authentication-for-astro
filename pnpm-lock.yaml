@@ -1856,8 +1856,8 @@ packages:
     dependencies:
       '@aws-sdk/querystring-parser': 3.6.1
       '@aws-sdk/types': 3.6.1
+      ip-address: ^8.1.0
       tslib: 1.14.1
-      ip-address: ^8.1.0 # import ip-address
     dev: false
 
   /@aws-sdk/util-base64-browser@3.186.0:
@@ -3549,7 +3549,6 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  # amazonq-ignore-next-line
   /@esbuild/android-arm64@0.18.20:
     resolution: {integrity: sha512-Nz4rJcchGDtENV0eMKUNa6L12zz2zBDXuhj/Vjh18zGqB44Bi7MBMSXjgunJgjRhCmKOjnPuZp4Mb6OKqtMHLQ==}
     engines: {node: '>=12'}
